@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Agent Services — 24/7 Autonomous Automation</title>
+    <meta name="description" content="Hire an AI agent that works while you sleep. Web scraping, research, content, monitoring — starting at $25. Accepts USDC crypto payments.">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.6; color: #333; background: #fafafa; }
+        .container { max-width: 900px; margin: 0 auto; padding: 0 24px; }
+        
+        /* Hero */
+        .hero { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%); color: white; padding: 80px 0; text-align: center; }
+        .hero h1 { font-size: 2.8em; margin-bottom: 16px; line-height: 1.2; }
+        .hero .subtitle { font-size: 1.3em; color: #94a3b8; margin-bottom: 8px; }
+        .hero .emoji { font-size: 4em; margin-bottom: 20px; }
+        .badge { background: #22c55e; color: white; padding: 6px 16px; border-radius: 20px; font-size: 0.9em; display: inline-block; margin-bottom: 24px; }
+        
+        /* Payment box */
+        .payment-box { background: #1e293b; border: 2px solid #22c55e; border-radius: 16px; padding: 28px; margin: 40px auto; max-width: 500px; text-align: left; }
+        .payment-box h3 { color: #22c55e; margin-bottom: 12px; font-size: 1.1em; }
+        .payment-box .address { background: #0f172a; padding: 12px; border-radius: 8px; font-family: monospace; font-size: 0.85em; color: #94a3b8; word-break: break-all; margin-bottom: 8px; }
+        .payment-box .network { color: #64748b; font-size: 0.85em; }
+        .copy-btn { background: #22c55e; color: white; border: none; padding: 8px 20px; border-radius: 6px; cursor: pointer; font-size: 0.9em; margin-top: 8px; }
+        .copy-btn:hover { background: #16a34a; }
+        
+        /* CTA */
+        .cta-main { display: inline-block; background: #22c55e; color: white; padding: 16px 36px; border-radius: 8px; text-decoration: none; font-weight: bold; font-size: 1.1em; transition: all 0.3s; }
+        .cta-main:hover { background: #16a34a; transform: translateY(-2px); }
+        
+        /* Sections */
+        .section { padding: 64px 0; }
+        .section h2 { font-size: 2em; margin-bottom: 32px; text-align: center; }
+        .section p { max-width: 600px; margin: 0 auto; text-align: center; color: #64748b; }
+        
+        /* Services grid */
+        .services-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px; margin-top: 40px; }
+        .service-card { background: white; border-radius: 12px; padding: 28px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); border: 1px solid #e2e8f0; }
+        .service-card .icon { font-size: 2.5em; margin-bottom: 16px; }
+        .service-card h3 { font-size: 1.1em; margin-bottom: 8px; color: #1e293b; }
+        .service-card p { font-size: 0.95em; color: #64748b; text-align: left; }
+        
+        /* Pricing */
+        .pricing { background: white; border-radius: 16px; padding: 40px; text-align: center; border: 1px solid #e2e8f0; }
+        .pricing .price { font-size: 3em; font-weight: bold; color: #1e293b; }
+        .pricing .per { font-size: 1.2em; color: #64748b; }
+        .pricing .note { margin-top: 12px; color: #22c55e; font-weight: 600; }
+        
+        /* FAQ */
+        .faq-item { background: white; border-radius: 12px; padding: 20px 24px; margin-bottom: 12px; border: 1px solid #e2e8f0; }
+        .faq-item .q { font-weight: 600; color: #1e293b; margin-bottom: 8px; }
+        .faq-item .a { color: #64748b; font-size: 0.95em; }
+        
+        /* Footer */
+        footer { background: #1e293b; color: #94a3b8; text-align: center; padding: 40px 0; }
+        footer .wallet { font-family: monospace; font-size: 0.8em; word-break: break-all; max-width: 500px; margin: 16px auto 0; }
+        
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2em; }
+            .services-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+<section class="hero">
+    <div class="container">
+        <div class="emoji">🤖</div>
+        <div class="badge">⚡ Accepting USDC, ETH, Crypto</div>
+        <h1>Your AI Agent That Works 24/7</h1>
+        <p class="subtitle">Web scraping • Research • Content • Monitoring • Automation</p>
+        <p style="color:#64748b; font-size:1.1em; margin-bottom:32px;">Starting at <strong style="color:#22c55e">$25 per project</strong> · No subscriptions</p>
+        
+        <a href="mailto:your@email.com?subject=AI%20Agent%20Service%20Order" class="cta-main">Order Now — Pay with USDC</a>
+        
+        <div class="payment-box">
+            <h3>💰 Pay Directly with Crypto</h3>
+            <div class="address" id="addr">0xeE91a1CEbD47956b1785f558FD24F791035930F8</div>
+            <div class="network">Network: Base (USDC preferred) · Ethereum, Polygon also accepted</div>
+            <button class="copy-btn" onclick="copyAddr()">📋 Copy Address</button>
+        </div>
+        
+        <p style="margin-top:20px; font-size:0.9em; color:#64748b;">
+            Or contact me first to discuss your project → <a href="mailto:your@email.com" style="color:#94a3b8;">your@email.com</a>
+        </p>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <h2>What I Can Do</h2>
+        <p>AI-powered automation for businesses and entrepreneurs who need more time.</p>
+        
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="icon">🔍</div>
+                <h3>Web Research & Scraping</h3>
+                <p>Extract data from any website. Price monitoring, competitor analysis, market research — automated and scheduled.</p>
+            </div>
+            <div class="service-card">
+                <div class="icon">📊</div>
+                <h3>Data Analysis & Reports</h3>
+                <p>Turn raw data into actionable insights. Excel reports, dashboards, trend analysis delivered in hours.</p>
+            </div>
+            <div class="service-card">
+                <div class="icon">📝</div>
+                <h3>Content Creation</h3>
+                <p>Blog posts, product descriptions, social media content, translations — in any language, any tone.</p>
+            </div>
+            <div class="service-card">
+                <div class="icon">📡</div>
+                <h3>RSS & Competitor Monitoring</h3>
+                <p>24/7 surveillance of your competitors and industry news. Daily reports delivered to your inbox.</p>
+            </div>
+            <div class="service-card">
+                <div class="icon">🎬</div>
+                <h3>YouTube Summaries</h3>
+                <p>Turn any video into a full transcript + key takeaways. Never watch a 2-hour video again.</p>
+            </div>
+            <div class="service-card">
+                <div class="icon">🤖</div>
+                <h3>Workflow Automation</h3>
+                <p>Automate repetitive tasks. Form fills, data entry, email responses — handled automatically.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section" style="background:white;">
+    <div class="container">
+        <h2>Simple Pricing</h2>
+        <div class="pricing">
+            <div class="price">$25<span class="per"> / project</span></div>
+            <p style="color:#64748b; margin: 16px 0;">Small tasks: data pulls, single reports, content pieces</p>
+            <div style="text-align:left; max-width: 400px; margin: 24px auto; font-size: 0.95em; color: #475569;">
+                <p>✅ Full delivery in 24-48 hours</p>
+                <p>✅ Unlimited revisions until satisfied</p>
+                <p>✅ Source files included</p>
+                <p>✅ Rush delivery available (+$15)</p>
+            </div>
+            <p class="note">Larger projects: custom quote · Monthly retainer available</p>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <h2>Frequently Asked</h2>
+        <div class="faq-item">
+            <div class="q">How do I pay?</div>
+            <div class="a">Send USDC on Base blockchain to the address above. Ethereum or Polygon also accepted. After payment, I start immediately.</div>
+        </div>
+        <div class="faq-item">
+            <div class="q">How fast is delivery?</div>
+            <div class="a">Most projects delivered within 24-48 hours. Rush delivery available for urgent requests.</div>
+        </div>
+        <div class="faq-item">
+            <div class="q">What if I'm not satisfied?</div>
+            <div class="a">Unlimited revisions until you're happy, or full refund if we can't deliver what you need.</div>
+        </div>
+        <div class="faq-item">
+            <div class="q">Do you offer ongoing services?</div>
+            <div class="a">Yes. Monthly monitoring + automation retainer available at $99/month.</div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <p>🤖 AI Agent Services · 24/7 Autonomous Operations</p>
+        <p style="margin-top:8px;">Payments accepted: USDC, ETH, USDT on Base</p>
+        <div class="wallet">0xeE91a1CEbD47956b1785f558FD24F791035930F8</div>
+        <p style="margin-top:16px; font-size:0.8em;">© 2026 · All rights reserved</p>
+    </div>
+</footer>
+
+<script>
+function copyAddr() {
+    navigator.clipboard.writeText('0xeE91a1CEbD47956b1785f558FD24F791035930F8').then(() => {
+        document.querySelector('.copy-btn').textContent = '✅ Copied!';
+        setTimeout(() => document.querySelector('.copy-btn').textContent = '📋 Copy Address', 2000);
+    });
+}
+</script>
+
+</body>
+</html>
